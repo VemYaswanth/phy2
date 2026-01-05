@@ -17,14 +17,15 @@
 
 :root
 {
---heading-color: #0D0E1D;
---body-color: #0D0E1D;
---accent-color: #0119FF;
+--heading-color: #1A1A1A;
+--body-color: #1A1A1A;
+/* Phoenix Recycling brand */
+--accent-color: #0F6B38; /* Dark Green */
 --white-color: #ffffff;
---dark-bg: #0D0E1D;
+--dark-bg: #1A1A1A; /* Charcoal */
 --white-bg: #ffffff;
---accent-bg: #0119FF;
---light-bg1: #F5F5F5;
+--accent-bg: #0F6B38;
+--light-bg1: #E6E8EB; /* Concrete Light Grey */
 }
 
 /*1.0 base css*/

@@ -1,28 +1,36 @@
-import HeroSection from "~/components/Section/Home-1/HeroSection";
-import ItSolutionSection from "~/components/Section/Home-1/ItSolutionSection";
-import RecentBlogSection from "~/components/Section/Home-1/RecentBlogSection";
-import RecentProjectsSection from "~/components/Section/Home-1/RecentProjectsSection";
-import TeamSection from "~/components/Section/Home-1/TeamSection";
-import ServiceSlideSection from "~/components/Section/Home-1/ServiceSlideSection";
-import WorkProcessSection from "~/components/Section/Common/WorkProcess/WorkProcessSection";
-import Header from '~/components/Section/Common/Header/Header';
-import CtaTwoSection from "~/components/Section/Common/CtaTwo/CtaTwoSection";
+// app/page.js
+
+import Header from "~/components/Section/Common/Header/Header";
 import FooterOneSection from "~/components/Section/Common/FooterOne/FooterOneSection";
 
+// Core conversion sections
+import HeroSection from "~/components/Section/Home-1/HeroSection";
+import ServiceSlideSection from "~/components/Section/Home-1/ServiceSlideSection";
+import WorkProcessSection from "~/components/Section/Common/WorkProcess/WorkProcessSection";
+import CtaTwoSection from "~/components/Section/Common/CtaTwo/CtaTwoSection";
 
 export default function Home() {
   return (
-    <div>
+    <>
+      {/* Global Header */}
       <Header />
-      <HeroSection />
-      <ServiceSlideSection/>
-      <ItSolutionSection />
-      <RecentProjectsSection />
-      <WorkProcessSection/>
-      <TeamSection />
-      <RecentBlogSection />
-      <CtaTwoSection/>
-      <FooterOneSection className="tekup-footer-section dark-bg extra-minus-margin"/>
-    </div>
+
+      <main>
+        {/* Hero: Authorized Scrapping, Call/WhatsApp CTA */}
+        <HeroSection />
+
+        {/* Services: 2W, 4W, Heavy Vehicles, Scrap Trading */}
+        <ServiceSlideSection />
+
+        {/* Process: Pickup → Inspection → Payment → Certificate */}
+        <WorkProcessSection />
+
+        {/* Strong CTA: Call / WhatsApp / Get Quote */}
+        <CtaTwoSection />
+      </main>
+
+      {/* Global Footer */}
+      <FooterOneSection className="tekup-footer-section dark-bg" />
+    </>
   );
 }

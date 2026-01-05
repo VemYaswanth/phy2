@@ -8,7 +8,7 @@ const ServiceCard = ({ service, className }) => {
           <img src={service.icon} alt={service.title} />
         </div>
         <div className="tekup-iconbox-data3">
-          <Link href="/single-service">
+          <Link href="/contact-us">
             <h5>{service.title}</h5>
           </Link>
           <p>{service.description}</p>

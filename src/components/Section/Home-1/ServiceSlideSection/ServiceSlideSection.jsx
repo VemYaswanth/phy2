@@ -43,7 +43,10 @@ const ServiceSlideSection = () => {
         <div className="sectin bg-light1 tekup-section-padding ">
             <div className="container">
                 <div className="tekup-section-title center">
-                    <h2>We deal with the aspects of professional IT services</h2>
+                    <h2>Services we offer across Karnataka</h2>
+                    <p style={{maxWidth: 720, margin: "12px auto 0"}}>
+                        Vehicle scrapping for individuals and industrial scrap solutions for businesses — fast response on WhatsApp.
+                    </p>
                 </div>
                 <div className="slider-container">
                     <Slider {...settings} className="">

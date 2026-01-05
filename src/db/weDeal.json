@@ -1,27 +1,32 @@
 [
-    {
-        "icon": "/images/iconbox/icon1.png",
-        "title": "Web Development",
-        "description": "We are architects of innovation trailblazers technological"
-    },
-    {
-        "icon": "/images/iconbox/icon2.png",
-        "title": "App Development",
-        "description": "We are architects of innovation trailblazers technological"
-    },
-    {
-        "icon": "/images/iconbox/icon3.png",
-        "title": "UI/UX Design",
-        "description": "We are architects of innovation trailblazers technological"
-    },
-    {
-        "icon": "/images/iconbox/icon4.png",
-        "title": "Digital Marketing",
-        "description": "We are architects of innovation trailblazers technological"
-    },
-    {
-        "icon": "/images/iconbox/icon3.png",
-        "title": "UI/UX Design",
-        "description": "We are architects of innovation trailblazers technological"
-    }
+  {
+    "icon": "/images/iconbox/icon1.png",
+    "title": "2-Wheeler Scrapping",
+    "description": "Scrap old bikes and scooters with a clear valuation process and guidance on required documents.",
+    "href": "/contact-us"
+  },
+  {
+    "icon": "/images/iconbox/icon2.png",
+    "title": "4-Wheeler Scrapping (Cars)",
+    "description": "Get scrap value for end-of-life cars with compliant handling and documentation support.",
+    "href": "/contact-us"
+  },
+  {
+    "icon": "/images/iconbox/icon3.png",
+    "title": "Heavy Vehicle Scrapping",
+    "description": "Trucks and buses dismantling with safety-first operations. Pickup depends on distance.",
+    "href": "/contact-us"
+  },
+  {
+    "icon": "/images/iconbox/icon10.png",
+    "title": "Machinery / Plant Dismantling",
+    "description": "End-to-end dismantling for industrial machinery and plant setups with responsible recycling.",
+    "href": "/contact-us"
+  },
+  {
+    "icon": "/images/iconbox/icon11.png",
+    "title": "Scrap Metal Trading (B2B)",
+    "description": "Buy/sell industrial scrap metal. Share material type, quantity, and location for a quote.",
+    "href": "/contact-us"
+  }
 ]

@@ -9,11 +9,12 @@ const ServiceSection = () => {
         <div className="section bg-light1 tekup-section-padding2">
         <div className="container">
           <div className="tekup-section-title center">
-            <h2>We deal with the aspects of professional IT services</h2>
+            <h2>Our services</h2>
+            <p>Vehicle scrapping, dismantling, and industrial scrap trading across Karnataka.</p>
           </div>
           <div className="row">
-          {services.map(service => (
-        <ServiceCard key={service.id} service={service} className="col-lg-6"/>
+      {services.map(service => (
+        <ServiceCard key={service.id} service={service} className="col-lg-6" />
       ))}
            
           </div>

@@ -1,26 +1,38 @@
 [
   {
     "id": 1,
-    "title": "Web Development",
-    "icon": "/images/v2/icon3.png",
-    "description": "We are architects of innovation, trailblazers of technological advancement, and partners in your success"
+    "icon": "/images/iconbox/icon1.png",
+    "title": "2-Wheeler Scrapping",
+    "description": "Scrap old bikes/scooters with clear valuation and guidance on required documents."
   },
   {
     "id": 2,
-    "title": "App Development",
-    "icon": "/images/v2/icon4.png",
-    "description": "We are architects of innovation, trailblazers of technological advancement, and partners in your success"
+    "icon": "/images/iconbox/icon2.png",
+    "title": "4-Wheeler Scrapping (Cars)",
+    "description": "End-of-life car scrapping with compliant handling and documentation support."
   },
   {
     "id": 3,
-    "title": "IT Management",
-    "icon": "/images/v2/icon7.png",
-    "description": "We are architects of innovation, trailblazers of technological advancement, and partners in your success"
+    "icon": "/images/iconbox/icon3.png",
+    "title": "Heavy Vehicle Scrapping",
+    "description": "Trucks and buses dismantling with safety-first operations. Pickup depends on distance."
   },
   {
     "id": 4,
-    "title": "Digital Marketing",
-    "icon": "/images/v2/icon6.png",
-    "description": "We are architects of innovation, trailblazers of technological advancement, and partners in your success"
+    "icon": "/images/iconbox/icon10.png",
+    "title": "Machinery/Plant Dismantling",
+    "description": "Industrial machinery and plant dismantling with responsible segregation and recycling."
+  },
+  {
+    "id": 5,
+    "icon": "/images/iconbox/icon11.png",
+    "title": "Scrap Metal Trading (B2B)",
+    "description": "Buy/sell industrial scrap metal. Share material type, approximate quantity, and location for a quote."
+  },
+  {
+    "id": 6,
+    "icon": "/images/iconbox/icon12.png",
+    "title": "Compliance Support",
+    "description": "Guidance on document requirements and compliance steps (RVSF status currently in process)."
   }
 ]
